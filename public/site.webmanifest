@@ -1,0 +1,16 @@
+{
+  "name": "Node Webapp",
+  "short_name": "Node Webapp",
+  "description": "Minimal Node app with a bold color switcher UI.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
