@@ -1,5 +1,4 @@
 const buttons = document.querySelectorAll('button[data-color]');
-const status = document.getElementById('status');
 const themeMeta = document.querySelector('meta[name="theme-color"]');
 
 const colorMap = {
@@ -17,10 +16,6 @@ const setColor = (color) => {
     const isActive = button.dataset.color === color;
     button.setAttribute('aria-pressed', String(isActive));
   });
-
-  if (status) {
-    status.textContent = `Background set to ${config.label}.`;
-  }
 
   if (themeMeta) {
     themeMeta.setAttribute('content', config.theme);

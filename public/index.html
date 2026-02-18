@@ -14,23 +14,12 @@
     <link rel="stylesheet" href="/css/styles.css">
   </head>
   <body>
-    <main class="card" role="main" aria-labelledby="page-title">
-      <span class="eyebrow">Color Switch</span>
-      <h1 id="page-title">Tap a color to set the mood.</h1>
-      <p>
-        This is a tiny demo app with two bold color presets. Use Reset to return to
-        the clean white default.
-      </p>
-      <p id="status" class="sr-only" aria-live="polite">Background set to white.</p>
+    <main class="card" role="main">
       <div class="button-row">
         <button class="color-button" type="button" data-color="red" aria-pressed="false" aria-label="Set background to red">red</button>
         <button class="color-button" type="button" data-color="green" aria-pressed="false" aria-label="Set background to green">green</button>
         <button class="color-button" type="button" data-color="white" aria-pressed="false" aria-label="Reset background to white">reset</button>
       </div>
-      <p class="footer">Server is running. Check <a href="/health">/health</a>.</p>
-      <noscript>
-        <p>Enable JavaScript to change the background colors.</p>
-      </noscript>
     </main>
     <script src="/js/app.js"></script>
   </body>
