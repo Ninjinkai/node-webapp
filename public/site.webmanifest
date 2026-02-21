@@ -1,7 +1,7 @@
 {
-  "name": "Node Webapp",
-  "short_name": "Node Webapp",
-  "description": "Minimal Node app with a bold color switcher UI.",
+  "name": "Red Green Buttons",
+  "short_name": "Red Green Buttons",
+  "description": "Minimal Express app with a red/green background switcher.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

@@ -1,12 +1,16 @@
 {
-  "name": "node-webapp",
+  "name": "red-green-buttons",
   "version": "0.1.0",
-  "description": "Minimal Express web app scaffold",
+  "description": "Minimal Express app with a red/green background switcher.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "node --test"
   },
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jsdom": "^28.1.0"
   }
 }
