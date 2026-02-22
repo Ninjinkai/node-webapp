@@ -1,5 +1,5 @@
 version: 1.0
-runtime: NODEJS_18
+runtime: nodejs14
 
 build:
   commands:
@@ -7,7 +7,7 @@ build:
       - npm install --production
 
 run:
-  command: npm start
+  command: node index.js
   network:
     port: 3000
     env: PORT
