@@ -1,10 +1,10 @@
 version: 1.0
-runtime: nodejs20
+runtime: nodejs14
 
 build:
   commands:
     build:
-      - npm ci --omit=dev
+      - npm install --production
 
 run:
   command: npm start
